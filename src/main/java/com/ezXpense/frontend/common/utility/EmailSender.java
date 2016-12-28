@@ -7,6 +7,7 @@ import com.ezXpense.frontend.user.dto.EzXpenseUserDto;
 
 
 public interface EmailSender{
+	//This is my second commit
 	
 	public void sendRegistrationMail(String orgName,String firstName,String lastName,String username,String password,String emailId)throws MailNotSentException;
 
